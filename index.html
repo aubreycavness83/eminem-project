@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLIM SHADY - Roman's Eminem Fan Page</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-label="Hero banner">
+      <div class="hero__image-wrap">
+        <img class="hero__image" src="images/eminem-hero.jpg" alt="Eminem" loading="eager">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title" data-text="EMINEM">EMINEM</h1>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span class="material-symbols-outlined">expand_more</span>
+      </div>
+    </section>
+
+    <!-- 1. INTRO -->
+    <section class="intro" id="intro" aria-labelledby="intro-heading">
+      <div class="intro__container">
+        <div class="intro__image-wrap">
+          <img src="images/eminem-about.jpg" alt="Eminem performing on stage" loading="lazy" class="intro__image">
+          <div class="intro__image-glitch" aria-hidden="true"></div>
+        </div>
+        <div class="intro__text">
+          <span class="intro__label">Who Is He?</span>
+          <h2 class="intro__heading" id="intro-heading">The Real Slim Shady</h2>
+          <p class="intro__description">Marshall Bruce Mathers III, known as Eminem, is one of the greatest rappers of all time. He started rapping when he was a teenager and became one of the best-selling music artists in history. His fast flows, clever wordplay, and fearless attitude made him a legend.</p>
+          <div class="intro__stats">
+            <div class="intro__stat">
+              <span class="intro__stat-number" data-count="220">0</span>
+              <span class="intro__stat-label">Million Records Sold</span>
+            </div>
+            <div class="intro__stat">
+              <span class="intro__stat-number" data-count="15">0</span>
+              <span class="intro__stat-label">Grammy Awards</span>
+            </div>
+            <div class="intro__stat">
+              <span class="intro__stat-number" data-count="11">0</span>
+              <span class="intro__stat-label">Studio Albums</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ALBUMS -->
+    <section class="albums" id="albums" aria-labelledby="albums-heading">
+      <div class="albums__container">
+        <div class="albums__header">
+          <span class="albums__label">Discography</span>
+          <h2 class="albums__heading" id="albums-heading">Top Albums</h2>
+        </div>
+        <div class="albums__grid">
+          <div class="album-card">
+            <div class="album-card__cover">
+              <img src="images/slim-shady-lp.png" alt="The Slim Shady LP album cover" loading="lazy" class="album-card__image">
+            </div>
+            <h3 class="album-card__title">The Slim Shady LP</h3>
+            <span class="album-card__year">1999</span>
+          </div>
+          <div class="album-card">
+            <div class="album-card__cover">
+              <img src="images/marshall-mathers.png" alt="The Marshall Mathers LP album cover" loading="lazy" class="album-card__image">
+            </div>
+            <h3 class="album-card__title">The Marshall Mathers LP</h3>
+            <span class="album-card__year">2000</span>
+          </div>
+          <div class="album-card">
+            <div class="album-card__cover">
+              <img src="images/eminem-show.png" alt="The Eminem Show album cover" loading="lazy" class="album-card__image">
+            </div>
+            <h3 class="album-card__title">The Eminem Show</h3>
+            <span class="album-card__year">2002</span>
+          </div>
+          <div class="album-card">
+            <div class="album-card__cover">
+              <img src="images/recovery.png" alt="Recovery album cover" loading="lazy" class="album-card__image">
+            </div>
+            <h3 class="album-card__title">Recovery</h3>
+            <span class="album-card__year">2010</span>
+          </div>
+          <div class="album-card">
+            <div class="album-card__cover">
+              <img src="images/music-to-be-murdered.png" alt="Music to Be Murdered By album cover" loading="lazy" class="album-card__image">
+            </div>
+            <h3 class="album-card__title">Music to Be Murdered By</h3>
+            <span class="album-card__year">2020</span>
+          </div>
+          <div class="album-card">
+            <div class="album-card__cover">
+              <img src="images/death-slim-shady.png" alt="The Death of Slim Shady album cover" loading="lazy" class="album-card__image">
+            </div>
+            <h3 class="album-card__title">The Death of Slim Shady</h3>
+            <span class="album-card__year">2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. LYRICS MARQUEE -->
+    <section class="marquee" aria-label="Famous lyrics ticker">
+      <div class="marquee__track" aria-hidden="true">
+        <span class="marquee__text">LOSE YOURSELF IN THE MUSIC THE MOMENT YOU OWN IT YOU BETTER NEVER LET IT GO&nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee__text">LOSE YOURSELF IN THE MUSIC THE MOMENT YOU OWN IT YOU BETTER NEVER LET IT GO&nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp;</span>
+      </div>
+    </section>
+
+    <!-- 4. MUSIC LAB -->
+    <section class="lab" id="lab" aria-labelledby="lab-heading">
+      <div class="lab__container">
+
+        <div class="lab__header">
+          <span class="lab__label">Interactive</span>
+          <h2 class="lab__heading" id="lab-heading">
+            Music Lab
+            <span class="lab__heading-sub">(Create Beats)</span>
+          </h2>
+        </div>
+
+        <div class="lab__board" role="group" aria-label="Beat pad controls">
+
+          <div class="lab__pads-group">
+            <span class="lab__group-label" aria-hidden="true">Kick</span>
+            <div class="lab__pads">
+              <button class="lab__pad" data-sound="kick1" aria-label="Kick 1">K1</button>
+              <button class="lab__pad" data-sound="kick2" aria-label="Kick 2">K2</button>
+              <button class="lab__pad" data-sound="kick1" aria-label="Kick 3">K3</button>
+              <button class="lab__pad" data-sound="kick2" aria-label="Kick 4">K4</button>
+            </div>
+          </div>
+
+          <div class="lab__pads-group">
+            <span class="lab__group-label lab__group-label--orange" aria-hidden="true">Snare</span>
+            <div class="lab__pads">
+              <button class="lab__pad lab__pad--orange" data-sound="snare1" aria-label="Snare 1">S1</button>
+              <button class="lab__pad lab__pad--orange" data-sound="snare2" aria-label="Snare 2">S2</button>
+              <button class="lab__pad lab__pad--orange" data-sound="snare1" aria-label="Snare 3">S3</button>
+              <button class="lab__pad lab__pad--orange" data-sound="snare2" aria-label="Snare 4">S4</button>
+            </div>
+          </div>
+
+          <div class="lab__pads-group">
+            <span class="lab__group-label lab__group-label--green" aria-hidden="true">Hi-Hat / Tom</span>
+            <div class="lab__pads">
+              <button class="lab__pad lab__pad--green" data-sound="hihat1" aria-label="Closed hi-hat">HH</button>
+              <button class="lab__pad lab__pad--green" data-sound="hihat2" aria-label="Open hi-hat">OH</button>
+              <button class="lab__pad lab__pad--green" data-sound="tom1" aria-label="High tom">T1</button>
+              <button class="lab__pad lab__pad--green" data-sound="tom2" aria-label="Low tom">T2</button>
+            </div>
+          </div>
+
+          <div class="lab__pads-group">
+            <span class="lab__group-label lab__group-label--purple" aria-hidden="true">Scratch</span>
+            <div class="lab__pads">
+              <button class="lab__pad lab__pad--purple" data-sound="scratch1" aria-label="Vinyl scratch 1">SC1</button>
+              <button class="lab__pad lab__pad--purple" data-sound="scratch2" aria-label="Vinyl scratch 2">SC2</button>
+            </div>
+          </div>
+
+          <div class="lab__right">
+            <div class="lab__slider-wrap">
+              <label class="lab__group-label" for="lab-synth">Decay / Sustain</label>
+              <input
+                class="lab__slider"
+                id="lab-synth"
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Synth pitch"
+              >
+            </div>
+            <div class="lab__viz-wrap">
+              <span class="lab__group-label" aria-hidden="true">Beat Pattern</span>
+              <canvas
+                class="lab__canvas"
+                id="lab-canvas"
+                role="img"
+                aria-label="Live beat visualizer"
+              ></canvas>
+            </div>
+            <div class="lab__transport" role="group" aria-label="Record and playback controls">
+              <button class="lab__transport-btn lab__transport-btn--record" id="lab-record" aria-label="Record beat" aria-pressed="false">
+                <span class="lab__transport-icon" aria-hidden="true">&#9679;</span> Record
+              </button>
+              <button class="lab__transport-btn lab__transport-btn--play" id="lab-play" aria-label="Play back beat" disabled>
+                <span class="lab__transport-icon" aria-hidden="true">&#9654;</span> Play
+              </button>
+              <button class="lab__transport-btn lab__transport-btn--clear" id="lab-clear" aria-label="Clear recorded beat" disabled>
+                <span class="lab__transport-icon" aria-hidden="true">&#9632;</span> Clear
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FAVORITE SONGS -->
+    <section class="songs" id="songs" aria-labelledby="songs-heading">
+      <div class="songs__container">
+        <div class="songs__header">
+          <h2 class="songs__heading" id="songs-heading">Favorite Songs</h2>
+        </div>
+        <div class="songs__rows">
+          <div class="song-row" data-song="rap-god">
+            <div class="song-row__video">
+              <video class="song-row__player" crossorigin="anonymous" poster="images/rap-god.jpg" preload="none">
+                <source src="videos/eminem-rap-god.mp4" type="video/mp4">
+              </video>
+              <button class="song-row__play-btn" aria-label="Play Rap God">
+                <span class="material-symbols-outlined">play_arrow</span>
+              </button>
+            </div>
+            <div class="song-row__info">
+              <h3 class="song-row__title">Rap God</h3>
+              <p class="song-row__desc">Speed. Precision. 4.28 words per second.</p>
+              <canvas class="song-row__visualizer" aria-hidden="true"></canvas>
+            </div>
+          </div>
+          <div class="song-row song-row--reverse" data-song="lose-yourself">
+            <div class="song-row__video">
+              <video class="song-row__player" crossorigin="anonymous" poster="images/lose-yourself.jpg" preload="none">
+                <source src="videos/eminem-lose-yourself.mp4" type="video/mp4">
+              </video>
+              <button class="song-row__play-btn" aria-label="Play Lose Yourself">
+                <span class="material-symbols-outlined">play_arrow</span>
+              </button>
+            </div>
+            <div class="song-row__info">
+              <h3 class="song-row__title">Lose Yourself</h3>
+              <p class="song-row__desc">One shot. One opportunity. Oscar winner.</p>
+              <canvas class="song-row__visualizer" aria-hidden="true"></canvas>
+            </div>
+          </div>
+          <div class="song-row" data-song="godzilla">
+            <div class="song-row__video">
+              <video class="song-row__player" crossorigin="anonymous" poster="images/godzilla.jpg" preload="none">
+                <source src="videos/eminem-godzilla.mp4" type="video/mp4">
+              </video>
+              <button class="song-row__play-btn" aria-label="Play Godzilla">
+                <span class="material-symbols-outlined">play_arrow</span>
+              </button>
+            </div>
+            <div class="song-row__info">
+              <h3 class="song-row__title">Godzilla</h3>
+              <p class="song-row__desc">229 words in 30 seconds. World record speed.</p>
+              <canvas class="song-row__visualizer" aria-hidden="true"></canvas>
+            </div>
+          </div>
+          <div class="song-row song-row--reverse" data-song="without-me">
+            <div class="song-row__video">
+              <video class="song-row__player" crossorigin="anonymous" poster="images/without-me.jpg" preload="none">
+                <source src="videos/eminem-without-me.mp4" type="video/mp4">
+              </video>
+              <button class="song-row__play-btn" aria-label="Play Without Me">
+                <span class="material-symbols-outlined">play_arrow</span>
+              </button>
+            </div>
+            <div class="song-row__info">
+              <h3 class="song-row__title">Without Me</h3>
+              <p class="song-row__desc">Guess who's back. Back again.</p>
+              <canvas class="song-row__visualizer" aria-hidden="true"></canvas>
+            </div>
+          </div>
+          <div class="song-row" data-song="houdini">
+            <div class="song-row__video">
+              <video class="song-row__player" crossorigin="anonymous" poster="images/houdini.jpg" preload="none">
+                <source src="videos/eminem-houdini.mp4" type="video/mp4">
+              </video>
+              <button class="song-row__play-btn" aria-label="Play Houdini">
+                <span class="material-symbols-outlined">play_arrow</span>
+              </button>
+            </div>
+            <div class="song-row__info">
+              <h3 class="song-row__title">Houdini</h3>
+              <p class="song-row__desc">Now you see me. Now you don't.</p>
+              <canvas class="song-row__visualizer" aria-hidden="true"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. STAGE SHOW BUILDER -->
+    <section class="stage-show" id="stage-show" aria-labelledby="stage-show-heading">
+      <div class="stage-show__container">
+        <div class="stage-show__header">
+          <span class="stage-show__label">Interactive</span>
+          <h2 class="stage-show__heading" id="stage-show-heading">Build Your Eminem Stage Show</h2>
+          <p class="stage-show__intro">Stage video is on top. Pick lights and smoke videos below, then press Start Show.</p>
+        </div>
+
+        <div class="stage-show__panel">
+          <div class="stage-show__scene-wrap">
+            <div class="stage-show__scene" id="stage-drop-zone" aria-label="Stage video preview area">
+              <video class="stage-show__video" id="stage-main-video" playsinline preload="metadata"></video>
+              <video class="stage-show__stage-open" id="stage-open-video" muted loop playsinline preload="metadata" aria-hidden="true">
+                <source src="videos/eminem-red-curtain.mp4" type="video/mp4">
+              </video>
+              <video class="stage-show__overlay stage-show__overlay--light" id="stage-light-video" muted loop playsinline preload="metadata" aria-hidden="true"></video>
+              <video class="stage-show__overlay stage-show__overlay--smoke" id="stage-smoke-video" muted loop playsinline preload="metadata" aria-hidden="true"></video>
+            </div>
+          </div>
+
+          <div class="stage-show__tools" role="group" aria-label="Stage setup tools">
+            <h3 class="stage-show__tools-title">Build The Show</h3>
+            <div class="stage-show__tool-list">
+              <p class="stage-show__group-label">1. Pick stage video</p>
+              <div class="stage-show__button-row" role="group" aria-label="Performance video options">
+                <button class="stage-show__tool" data-stage-video-src="videos/eminem-rap-god.mp4" type="button">Rap God</button>
+                <button class="stage-show__tool" data-stage-video-src="videos/eminem-lose-yourself.mp4" type="button">Lose Yourself</button>
+                <button class="stage-show__tool" data-stage-video-src="videos/eminem-godzilla.mp4" type="button">Godzilla</button>
+                <button class="stage-show__tool" data-stage-video-src="videos/eminem-without-me.mp4" type="button">Without Me</button>
+                <button class="stage-show__tool" data-stage-video-src="videos/eminem-houdini.mp4" type="button">Houdini</button>
+              </div>
+
+              <p class="stage-show__group-label">2. Pick light video</p>
+              <div class="stage-show__button-row" role="group" aria-label="Light video options">
+                <button class="stage-show__tool" data-light-video-src="videos/eminem-color-lights.mp4" type="button">Color Lights</button>
+                <button class="stage-show__tool" data-light-video-src="videos/eminem-spotlight.mp4" type="button">Spotlight</button>
+              </div>
+
+              <p class="stage-show__group-label">3. Pick smoke video</p>
+              <div class="stage-show__button-row" role="group" aria-label="Smoke video options">
+                <button class="stage-show__tool" data-smoke-video-src="videos/eminem-low-smoke.mp4" type="button">Low Smoke</button>
+                <button class="stage-show__tool" data-smoke-video-src="videos/eminem-heavy-smoke.mp4" type="button">Heavy Smoke</button>
+              </div>
+            </div>
+            <div class="stage-show__actions">
+              <button class="stage-show__btn" id="stage-show-start" type="button">Start Show</button>
+              <button class="stage-show__btn stage-show__btn--alt" id="stage-show-clear" type="button">Reset Setup</button>
+              <button class="stage-show__btn stage-show__btn--alt" id="stage-show-stop" type="button">Stop</button>
+            </div>
+            <p class="stage-show__note" id="stage-show-note">Choose stage, lights, and smoke videos, then press Start Show.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUTRO -->
+    <section class="outro" aria-label="Closing message">
+      <div class="outro__content">
+        <p class="outro__text" data-text="WILL THE REAL SLIM SHADY PLEASE STAND UP?">WILL THE REAL SLIM SHADY PLEASE STAND UP?</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
